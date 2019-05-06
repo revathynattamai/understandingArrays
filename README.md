@@ -1,0 +1,3 @@
+(!Array.prototype.copyingWithin) - It checks if there is any  copyingWithin array function already available in the in built functions. If its not available if uses the function defined by us.
+First thing to check is whether an array is defined or not. We get the value of array using "this". We are calling the function as array.method(). So the value of this in the function should be the array.
+Get the start and end value. 
